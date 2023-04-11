@@ -1,15 +1,14 @@
-<!DOCTYPE html>
+'<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Barbearia Alura</title>
-<link rel="stylesheet" href="pagina.css">
-<link rel="stylesheet" href="style.css">
+    <title>Contato-Barbearia Alura</title>
+ <link rel="stylesheet" type="text/css" href="reset.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
-
-
-
-        <header>
+  <body class="og">
+      <header>
 
         <div class="caixa">
           <h1> <img src="logo2.png" alt="Logo da Barbearia Alura"></h1>
@@ -17,45 +16,89 @@
          <ul>
            <li> <a href="pagina.html"> Home </a> </li>
            <li> <a href="produtos.html"> Produtos </a> </li>
-           <li> <a href="pagina2.html"> Contatos </a> </li>
+           <li> <a href="index.html"> Contatos </a> </li>
          </ul>
        </nav>
           </div>
       </header>
 
-      
-      <div class="principal">
-    <h1 class="titulo-principal"> Barbearia Alura</h1>
+      <main>
+        <h2 class="h2"> Contato </h2>
 
-    <h2 class="titulo-secundario">Sobre a Barbearia</h2>
+        <form>
+          <label for="nomesobrenome"> Nome e Sobrenome </label>
+          <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-  <center>  <p id="missao">Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-<p id="lana">Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</p>
+     <label for="email">Email</label>
+     <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-<p id="juju">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p> </center>
+     <label for="telefone"> Telefone</label>
+     <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
 
-</div>
-  <div class="beneficios">
+     <label for="mensagem">Mensagem</label>
+    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required> </textarea>
 
-    <h3 class="titulo3"> Benefícios</h3>
-    <ul>
-      <li class="itens"> Atendimento ao Cliente</li>
-      <li class="itens"> Espaço Diferenciado</li>
-      <li class="itens"> Localização </li>
-      <li class="itens"> Profissionais Qualificados </li>
+    <fieldset>
+      <legend> Como prefere o nosso contato?</legend>
+      <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+      <label for="radio-whatsapp"><input type="radio" name="contato" value="email" id="radio-whatsapp">Whatsapp</label>
+      <label for="radio-telefone"><input type="radio" name="contato" value="email" id="radio-telefone">Telefone</label>
+    </fieldset>
+    <fieldset>
+      <legend>Qual horário prefere ser atendido?</legend>
+      <select>
+      <option>Manhã</option>
+      <option>Tarde</option>
+      <option>Noite</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
-    </ul>
-    <img src="bluzin.jpeg" id="benefits">
+    <input type="submit" value="Enviar formulário" class="enviar">
+  </form>
+    <table>
+       <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Horário</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Segunda</td>
+          <td>8h ~ 20h</td>
 
-  </div>
+        </tr>
+        <tr>
+          <td>Quarta</td>
+          <td>8h ~ 20h</td>
+        </tr>
+        <tr>
+          <td>Sexta</td>
+          <td>8h ~ 20h</td>
+        </tr>
+    </table>
+    </tbody>
+  </table>
+</fieldset>
+     </main>
 
-  <link rel="stysheet" href="css/documento.css">
+     <footer>
+       <img src="logo2.png" alt="Logo da Barbearia Alura">
+       <p class="copyright">&copy; copyright Barbearia Alura - 2023</p>
+     </footer>
+     
+    .
+    .
+     </main>
 
-  <section>
-        <figure class="gif">
-              <img src="azu.gif">
-        </figure>
-  </section>
+    </body>
 
-  </body>
+
+
+
+
+
+
 </html>
